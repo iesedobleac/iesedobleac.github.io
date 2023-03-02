@@ -1,19 +1,19 @@
 # Top Menu
 topmenu:
 
-- title: Home
+- title: Inicio
   url: ""
 
-- title: About
+- title: Conóceme
   url: "about/"
 
-- title: Contact
+- title: Contacto
   url: "contact/"
 
-- title: Get this theme  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
-  class: "ml-2 btn btn-dark text-white px-3"
-  external: true
+# - title: Get this theme  
+#   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+#   class: "ml-2 btn btn-dark text-white px-3"
+#   external: true
 
 # Footer Menu
 footermenu:
