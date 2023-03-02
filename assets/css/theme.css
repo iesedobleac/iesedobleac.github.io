@@ -1,4 +1,7 @@
- @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");:root {
+ @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+ 
+ :root {
     --blue: #3d61fd;
     --indigo: #6610f2;
     --purple: #6f42c1;
