@@ -608,6 +608,38 @@ background-color: #fff;
     text-align: center;
 }
 
+.sidebar #social_media_links h2 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 2rem; 
+    line-height: 1.5;
+    text-align: center;
+}
+
+.sidebar .social_media_content {
+    margin: auto auto 20px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    #twitter_icon {
+        fill: #00acee;
+    }
+
+    #linkedin_icon {
+        fill: #0e76a8;
+    }
+
+    p {
+
+        font-size: 20px;
+        margin: 0 20px 0 30px;
+        text-align: center;
+    }
+}
+
 .sidebar #mc_embed_signup input {width:100%;}
 
 .sidebar #mc_embed_signup .mc-field-group {width:100% !important;}
