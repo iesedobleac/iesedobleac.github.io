@@ -1,9 +1,5 @@
 <div class="sidebar sticky-top">
     <div class="sidebar-section">
-        <h5><span>Newsletter</span></h5>
-        {% include newsletter.html %}
-    </div>
-    <div class="sidebar-section">
         <h5><span>Dame amor en</span></h5>
 
         <div id="social_media_links">
@@ -42,5 +38,29 @@
                 <p class="social_label">Email</p>
             </div>
         </a>
+    </div>
+    <div class="sidebar-section">
+        <h5><span>Nube de etiquetas</span></h5>
+        <ul class="tag-list">
+            {% assign tags = "" %}
+            {% for page in site.posts %}
+                {% for tag in page.categories %}
+                    {% if tags == "" %}
+                        {% assign tags = tag %}
+                    {% else %}
+                        {% assign tags = tags | append: ',' | append: tag %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+    
+            {% assign tags = tags | split: ',' | uniq %}
+    
+            {% for tag in tags %}
+            <li class="tag_element">
+                <p>{{ tag }}</p>
+            </li>
+            {% endfor %}
+
+        </ul>
     </div>
 </div>
