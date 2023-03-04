@@ -839,3 +839,10 @@ span.navigation:before {
   transition: all 0.3s;
   opacity: 0.8;
 }
+
+@media (max-width: 1366px) {
+  .intro {
+    margin: 50px 0 0 0;
+  }
+}
+

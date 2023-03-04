@@ -8,7 +8,6 @@ favicon: 'assets/images/favicon.ico'
 author: Sal
 paginate: 9
 tag_dir: [Android, Kotlin, Tecnología, Charlando]
-disqus: 'demowebsite'
 locale: en_us
 lang: en_us
 feed_items: 10
@@ -32,7 +31,7 @@ authors:
     email: isaacdelosredi@gmail.com
     web: https://iesedobleac.github.io/
     twitter: https://twitter.com/iesedobleac
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: "Autor de Querido Programador. Desarrollador sevillano centrado en programación móvil con ganas de aprender y sobretodo enseñar al resto lo que está aprediendo."
 
 # Social
 social:
