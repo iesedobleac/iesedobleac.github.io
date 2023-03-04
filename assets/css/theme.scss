@@ -202,7 +202,7 @@ small,
 /* Pages */
 
 .hero {
-  background: #3d8afd;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
   padding: 5rem 5rem;
 }
 
@@ -326,8 +326,8 @@ small,
 }
 
 .post-top-meta .author-thumb {
-  width: 72px;
-  height: 72px;
+  width: 90px;
+  height: 90px;
 }
 
 .post-top-meta.authorpage .author-thumb {
@@ -512,6 +512,11 @@ ul.tags li a:hover {
   font-weight: 400;
 }
 
+.btn.follow:hover {
+  background-color: #00acee;
+  color: rgba(255, 255, 255, 1)
+}
+
 .btn.subscribe {
   background-color: #1c9963;
   border-color: #1c9963;
@@ -525,7 +530,7 @@ ul.tags li a:hover {
 }
 
 .post-top-meta .btn.follow {
-  margin-left: 5px;
+  margin-left: 10px;
   margin-top: -4px;
 }
 

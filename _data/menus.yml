@@ -18,15 +18,11 @@ topmenu:
 # Footer Menu
 footermenu:
 
-- title: Home
+- title: Inicio
   url: ""
 
-- title: Privacy Policy
+- title: Política de Privacidad
   url: "privacy-policy/"
 
-- title: Contact
+- title: Contacto
   url: "contact/"
-
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
-  external: true
