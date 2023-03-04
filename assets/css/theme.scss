@@ -512,7 +512,7 @@ ul.tags li a:hover {
   font-weight: 400;
 }
 
-.btn.follow:hover {
+.btn.follow:hover, .btn.follow:active {
   background-color: #00acee;
   color: rgba(255, 255, 255, 1)
 }
@@ -844,5 +844,8 @@ span.navigation:before {
   .intro {
     margin: 50px 0 0 0;
   }
-}
 
+  #author-name {
+    margin-top: 18px;
+  }
+}
