@@ -2,7 +2,6 @@
 layout: post
 title: ¿Quién soy?
 permalink: "/about/"
-image: assets/images/about.webp
 ---
 
 <div class="row">
@@ -38,8 +37,7 @@ era muy novedoso) HTC Wildfire S</strong> con Android 2.0 y me dijo:
 
 > Aprende a programar para Android, que esto tiene futuro, y si lo haces, te mandamos a una empresa relacionada con ello.
 
-Pero claro, era una primavera sevillana de 2012, yo tenía 18 años, y a esa edad la cabeza suele estar a otras cosas. Sumado a que en aquella época la documentación
-era escasa, Android Studio no existía, se hacía con Eclipse, <strong>me agobié, por lo que finalmente lo dejé de lado.</strong> 🤯
+Pero claro, era una primavera sevillana de 2012, yo tenía 18 años, y a esa edad la cabeza suele estar a otras cosas, <strong>por lo que finalmente lo dejé de lado.</strong> 🤯
 
 ### El futuro inmediato
 
@@ -113,20 +111,18 @@ ofertas que veía.
 <strong>Hice un total de tres entrevistas,</strong> en dos de ellas me dijeron que no y al fin la suerte se puso de mi lado: hice una entrevista en SDOS, con prueba
 técnica incluida, pero no a modo eliminatoria, sino para ver en que nivel estabas, ya que <strong>ellos se encargaban de formarte acorde a tu nivel</strong> 🔝
 
-<strong>Acostumbrado a estar en empresas que rozaban lo ilegal</strong>, me presentaron SDOS, con un ambiente de trabajo que pintaba muy bien y con todo en
-regla desde el momento en el que entras. Cruzaba los dedos por recibir una llamada de ellos, hasta que una mañana llamaron: <strong>les interesaba mi perfil</strong>.
-Así que <strong>en septiembre de 2019 empezó mi aventura como programador móvil y aún dura hasta hoy, y el resto, es historia</strong> ⌛
+Cruzaba los dedos por recibir una llamada de ellos, hasta que lo hicieron: <strong>les interesaba mi perfil</strong>. Así que <strong>en septiembre de 2019 empezó 
+mi aventura como programador móvil, y el resto, es historia</strong> ⌛
 
-<strong>Semanas después recibí una llamada de las dos empresas que me habían rechazado para ofrecerme entrar</strong>, pero no mi ciela, este desarrollador
-ya había encontrado su sitio.
+> Semanas después recibí llamada de las dos empresas que me habían rechazado para ofrecerme entrar, pero no mi ciela, este desarrollador ya había encontrado su
+sitio.
 
 ### La actualidad
 
 ![Wallpaper de Android Kotlin](/assets/images/actually.webp)
 
-En el presente <strong>cuento con varios años de experiencia</strong>, he pasado por diferentes proyectos dentro de la misma empresa y he crecido como persona. Nunca 
-he dejado de ser autodidacta, por lo que no soy de los que cuando termina la jornada, desconecto, sino que <strong>sigo formandome y creando, con más de siete 
-aplicaciones a mis espaldas</strong> 📱
+En el presente <strong>cuento con varios años de experiencia</strong>, he pasado por diferentes proyectos y he crecido como persona. Nunca he dejado de ser autodidacta, 
+por lo que <strong>cuando termina la jornada, sigo formandome y creando, con más de siete aplicaciones a mis espaldas</strong> 📱
 
 De ahí nace este blog, la verdad que no ha sido un camino fácil (y lo que aún me queda), <strong>todos hemos sido juniors y hay veces que me habría gustado recibir una
 palmadita en la espalda que me dijera: todo va a ir bien.</strong> Por eso, querido programador, esta historia y toda mi experiencia, va por ti, bienvenido y gracias por
