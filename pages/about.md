@@ -10,7 +10,7 @@ permalink: "/about/"
   
   <br><br> Vamos a lo que interesa, <strong>¿cómo he llegado hasta aquí?</strong> 🤔</p></div>
 
-  <div class="col-md-6"><img src="/assets/images/isaac.jpg" /></div>
+  <div class="col-md-6"><img src="/assets/images/about_assets/isaac.webp" /></div>
 
 </div>
 
@@ -19,7 +19,7 @@ permalink: "/about/"
 Nacido en mi Sevilla de mi arma y con gusto por la tecnología desde que era un moco, te quiero contar como <strong>a veces no es necesario seguir el camino marcado
 que te dice todo el mundo</strong>.
 
-![Plaza España de Sevilla](/assets/images/seville.webp)
+![Plaza España de Sevilla](/assets/images/about_assets/seville.webp)
 
 <strong>Mi pasión por la tecnología viene desde pequeño</strong>, con unos 10 años, viendo como mi cuñado <strong>se ponía a arreglar el ordenador y podía pasarme
 las horas mirando qué y cómo lo hacía.</strong> Pero vamos a avanzar en el tiempo, que tampoco quiero que esto se convierta en una autobiografía ✏️
@@ -30,7 +30,7 @@ las horas mirando qué y cómo lo hacía.</strong> Pero vamos a avanzar en el ti
 software. Me matriculé en una formación profesional de grado medio llamada <i>Sistemas Microinformáticos y Redes</i>. <strong>Sin saberlo, este sería mi primer
 contacto con lo que, 10 años después, se convertiría en mi profesión</strong> 📱
 
-![Mascota de Android con mochila](/assets/images/android_developer.webp)
+![Mascota de Android con mochila](/assets/images/about_assets/android_developer.webp)
 
 <strong>Uno de mis profesores puso en mis manos un ya arcaico, aunque en esos momentos muy novedoso, HTC Wildfire S</strong> con Android 2.0 y me dijo:
 
@@ -51,28 +51,26 @@ hacer o estaba simplemente perdiendo el tiempo y engañándome a mí mismo? <str
 
 <div class="row">
   
-  <div class="col-md-8"><img src="/assets/images/teletrabajo.webp" /></div>
+  <div class="col-md-6 mb-4"><img src="/assets/images/about_assets/teletrabajo.webp" /></div>
 
-  <div class="col-md-4"><p>Era un verano de 2014 sin mucho que hacer y empecé a interesarme por Photoshop. <strong>Empecé a hacer fotomontajes</strong>, me 
-  gustaba integrar elementos imposibles en paisajes reales, y también ponerme a mí en diversas situaciones. <strong>Me empapaba de tutoriales y me ayudaba a 
+  <div class="col-md-6"><p>Era un verano de 2014 sin mucho que hacer y empecé a interesarme por Photoshop. <strong>Empecé a hacer fotomontajes</strong>, me 
+  gustaba integrar elementos imposibles en paisajes reales, y también ponerme a mí en diversas situaciones. <br><br><strong>Me empapaba de tutoriales y me ayudaba a 
   aprender mientras me mantenía con la cabeza ocupada</strong></p></div>
 
 </div>
 
 Como vi que aquello del diseño me gustaba, <strong>me estuve informando acerca de qué opciones había</strong> y vi que mi nota de la prueba de acceso me daba
-para una formación profesional de grado superior relacionada (<i>Diseño y Edición de Publicaciones Impresas y Multimedia</i>). En 2016 terminé y, aparte
-de la gente con la que compartí esos años, me llevé el logro de haber creado un juego de mesa como proyecto final. Aunque, una vez más, <strong>nunca ejercí
-como diseñador gráfico</strong> 🎨
+para una formación profesional de grado superior relacionada (<i>Diseño y Edición de Publicaciones Impresas y Multimedia</i>).
 
 El resumen de los siguientes años es: entrevistas surrealistas, sueldos irrisorios que no daban ni para el transporte al sitio. Literalmente <strong>en una
 empresa me querían ofrecer 200 euros al mes y me lo vendían como si me estuvieran haciendo un favor.</strong>
 
-Me hice un porfolio, me anunciaba en redes, y conseguí algunos trabajos por mi cuenta, pero visto que no encontraba nada, tuve que aceptar otros trabajos: 
-pizzero, reponedor, mozo de almacén... ya os imagináis la situación en cada uno 🍕
+Cre un porfolio, me anunciaba en redes, y <strong>conseguí algunos trabajos por mi cuenta</strong>, pero visto que no encontraba nada, tuve que aceptar 
+otros trabajos: pizzero, reponedor, mozo de almacén... <strong>ya os imagináis la situación en cada uno</strong> 🍕
 
 ### Luz al final de tunel
 
-![Wallpaper de Android Kotlin](/assets/images/kotlin.webp)
+![Wallpaper de Android Kotlin](/assets/images/about_assets/mobile_development.webp)
 
 Realmente <strong>me sentía entre la espada y la pared, no sabía qué hacer con mi vida</strong>. Los trabajos que hacía no me llenaban y me sentía en un limbo
 en el que se me iban los años. Y así me llevé tres años, hasta que a principios de 2019 mi pareja me pasó un anuncio de Facebook, un curso de programación móvil.
@@ -109,7 +107,7 @@ mi aventura como programador móvil, y el resto es historia</strong> ⌛
 
 ### La actualidad
 
-![Wallpaper de Android Kotlin](/assets/images/actually.webp)
+![Wallpaper de Android Kotlin](/assets/images/about_assets/actually.webp)
 
 En el presente <strong>cuento con varios años de experiencia</strong>, he pasado por diferentes proyectos y he crecido como persona. Nunca he dejado de ser autodidacta,
 por lo que <strong>cuando termina la jornada sigo formandome y creando, con más de siete aplicaciones a mis espaldas</strong> 📱
