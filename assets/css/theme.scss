@@ -186,10 +186,10 @@ small,
   display: flex;
   flex-wrap: wrap;
 
-  li.tag_element {
+  li.tag-element {
     margin: 5px 5px 0 0;
     padding: 5px 10px;
-    background-color: #3aa7da;
+    background-color: rgb(0, 153, 255);
     border-radius: 10px;
 
     p {
@@ -513,7 +513,8 @@ ul.tags li a:hover {
 }
 
 .btn.follow:hover, .btn.follow:active {
-  background-color: #00acee;
+  background-color: rgb(0, 153, 255);
+  border-color: rgb(0, 153, 255);
   color: rgba(255, 255, 255, 1)
 }
 
