@@ -10,7 +10,7 @@ permalink: "/about/"
   
   <br><br> Vamos a lo que interesa, <strong>¿cómo he llegado hasta aquí?</strong> 🤔</p></div>
 
-  <div class="col-md-6"><img src="/assets/images/about_assets/isaac.webp" /></div>
+  <div class="col-md-6"><img src="/assets/images/isaac.webp" /></div>
 
 </div>
 

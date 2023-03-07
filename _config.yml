@@ -1,15 +1,14 @@
 title: "Querido Programador"
-email: wowthemesnet@gmail.com
+email: isaacdelosredi@gmail.com
 timezone: UTC
 baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: Isaac
 paginate: 9
-tag_dir: [Android, Kotlin, Tecnología, Charlando]
-locale: en_us
-lang: en_us
+locale: es_es
+lang: es_es
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
@@ -27,7 +26,7 @@ authors:
   isaac:
     name: Isaac
     display_name: Isaac
-    avatar: 'assets/images/isaac.jpg'
+    avatar: 'assets/images/isaac.webp'
     email: isaacdelosredi@gmail.com
     web: https://iesedobleac.github.io/
     twitter: https://twitter.com/iesedobleac
