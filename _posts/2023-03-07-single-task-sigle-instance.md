@@ -29,24 +29,14 @@ Depende del uso que le quieras dar a tu aplicación puedes usar uno u otro, **pe
 pero tienen ligeras diferencias** 🤔
 
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    <activity
+        android:name=".MainActivity"
+        android:launchMode="singleTask"
+        android:exported="true">
 
-    ...
-
-        <activity
-            android:name=".MainActivity"
-            android:launchMode="singleTask"
-            android:exported="true">
-
-            ...
-
-        </activity>
-
-    </application>
-
-</manifest>
+        ...
+        
+    </activity>
 ```
 
 <h4 id="launch-mode-on-new-intent"> Antes de entrar en materia</h4>
