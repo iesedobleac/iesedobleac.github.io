@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ¿Quién soy?
-permalink: "/about/"
+permalink: "/conoceme/"
 ---
 
 <div class="row">

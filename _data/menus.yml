@@ -5,10 +5,10 @@ topmenu:
   url: ""
 
 - title: Conóceme
-  url: "about/"
+  url: "conoceme/"
 
 - title: Contacto
-  url: "contact/"
+  url: "contacto/"
 
 # - title: Get this theme  
 #   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
@@ -22,7 +22,7 @@ footermenu:
   url: ""
 
 - title: Política de Privacidad
-  url: "privacy-policy/"
+  url: "politica-de-privacidad/"
 
 - title: Contacto
-  url: "contact/"
+  url: "contacto/"
