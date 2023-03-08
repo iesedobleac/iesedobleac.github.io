@@ -305,6 +305,9 @@ small,
 }
 
 .prevnextlinks .thepostlink {
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+  overflow: hidden;
   padding: 20px 0;
   font-size: 17px;
   display: block;
