@@ -91,7 +91,7 @@ cursor en ese momento para tener bien localizado nuestro código y hacer que sea
 
 ##### ADB Idea
 
-{% include images.html url="/assets/images/post_images/android_studio_plugins/adb_idea_plugin.webp" description="Ejemplo de visualización de Code Glance en una clase Kotlin" %}
+{% include images.html url="/assets/images/post_images/android_studio_plugins/adb_idea_plugin.webp" description="Ejemplo de visualización de ADB Idea en Android Studio" %}
 
 Seguro que alguna vez te has topado desarrollando **una aplicación en los que los tiempos de compilación son largos** y necesitas probar una casuística en 
 la que para ello necesitas tener la aplicación como si de un `first install` se tratara. 
@@ -141,7 +141,7 @@ posibilidades que nos ofrece es bastante amplío:**
 * Codificar y decodificar con diversos sistemas.
 * Invertir cadenas de texto y cambiarles el orden.
 
-{% include images.html url="/assets/images/post_images/android_studio_plugins/string_manipulation.gif" description="Ejemplo de uso de String Manipulation" %}
+{% include images.html url="/assets/images/post_images/android_studio_plugins/string_manipulation.gif" %}
 
 **Puedes encontrarlo en la store** de Android Studio como `String Manipulation` o pulsando sobre el <a href="https://plugins.jetbrains.com/plugin/2162-string-manipulation">enlace resaltado</a>
 
