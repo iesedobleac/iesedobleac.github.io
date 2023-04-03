@@ -14,10 +14,19 @@ lang: es_es
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
+
 markdown: kramdown
+highlighter: rouge
 kramdown:
+  input: GFM
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
-    disable: true
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
 sass:
   sass_dir: _sass
   style: :compressed
