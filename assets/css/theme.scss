@@ -879,3 +879,49 @@ figure#image-with-legend {
   }
 }
 
+table {
+
+  border-left: 6px solid var(--accent);
+  width: 100%;
+  table-layout: fixed;
+
+  th:first-child{
+    border-radius:10px 0 0 0;
+  }
+  
+  th:last-child{
+    border-radius:0 10px 0 0;
+  }
+
+  .horizontal-bg tr:nth-child(odd) { 
+    background-color:#eee; 
+  }
+  .horizontal-bg tr:nth-child(even) { 
+    background-color: white;
+   }
+
+  .vertical-bg td:nth-child(odd) {
+    background-color: #eee;
+    color: #000;
+  }
+
+  td {
+    border: 1px solid lightgray; 
+    padding: 12px;
+    text-align: center;
+    background-color: var(--grey5);
+  }
+
+  .header-td {
+    font-weight: bold;
+  }
+
+  th {
+    background-color: #0099ff;
+    color: white;
+    border: 0;
+    padding: 12px;
+    text-align: left;
+  }
+
+}
