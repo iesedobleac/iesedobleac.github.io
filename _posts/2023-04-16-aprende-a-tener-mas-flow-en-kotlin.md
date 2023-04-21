@@ -23,17 +23,17 @@ que comunica o emite los datos. Un `operator`, que es el que **transforma esos d
 `collector`, que sería el que **escucha los datos que han sido emitidos** 👂🏽
 
 <table>
-  <tr class="vertical-bg">
+  <tr class="draw-color-column">
     <td class="header-td">Flow builder</td>
     <td>-></td>
     <td>Speaker</td>
   </tr>
-  <tr class="vertical-bg">
+  <tr class="draw-color-column">
     <td class="header-td">Operator</td>
     <td>-></td>
     <td>Translator</td>
   </tr>
-  <tr class="vertical-bg">
+  <tr class="draw-color-column">
     <td class="header-td">Collector</td>
     <td>-></td>
     <td>Listener</td>
