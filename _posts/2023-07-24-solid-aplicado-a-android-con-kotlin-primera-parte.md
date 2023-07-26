@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SOLID aplicado a Android con Kotlin: Primera parte"
+title: "Principios SOLID para Kotlin: Primera parte"
 author: isaac
 categories: [Android, Kotlin, Solid]
 image: assets/images/post_images/solid_principles/solid_principles_first_part.webp
@@ -29,8 +29,8 @@ el principio.
 
 **Rompiendo el principio**
 
-Por ejemplo, imagina que tengo **una clase que contiene información del usuario y también se encarga 
-del proceso de inicio y cierre de sesión. Aquí ya se estaría rompiendo este principio.** 
+Por ejemplo, imagina **una clase que contiene información del usuario y también se encarga del proceso 
+de inicio y cierre de sesión. **Nada más empezar ya estaríamos rompiendo el principio.**
 
 ```kotlin
 data class User(
@@ -49,19 +49,18 @@ data class User(
 }
 ```
 
-Ahora **supón que tienes que hacer algunos cambios para el proceso de autenticación** en los métodos 
-de inicio y cierre de sesión, la clase de usuario se verá afectada, **con la posibilidad de que se 
-produzcan bugs en código que ya funcionaba anteriormente.**
+Ahora **supongamos que tenemos que hacer algunos cambios para el proceso de autenticación** en los 
+métodos de inicio y cierre de sesión, la clase de usuario se verá afectada, **con la posibilidad de 
+que se produzcan bugs en el código que ya funcionaba anteriormente.**
 
 **Solución**
 
 Cuando pasa esto hay que separar las clases. Esto significa que la clase de usuario sólo debe tener 
 una responsabilidad, es decir, contener la información del usuario.
 
-Para solucionar esto, **hay que crear una nueva clase para manejar el proceso de inicio y cierre de 
-sesión y dejar que la clase de usuario solo maneje la información del usuario.** Así, se logra tener 
-una clase con una sola tarea y se evita romper el principio 
-de responsabilidad única.
+Para solucionar esto, **creamos una nueva clase para manejar el proceso de inicio y cierre de sesión 
+y dejar que la clase de usuario solo maneje la información del usuario.** Así, se logra tener una 
+clase con una sola tarea y se evita romper el principio de responsabilidad única.
 
 ```kotlin
 data class User(
@@ -84,8 +83,9 @@ class AuthenticationService(){
 
 ### Principio de abierto/cerrado **(Open/closed principle)**
 
-El principio abierto/cerrado (en inglés: ***Open/closed principle***) o "aporta o aparta" dice que 
-un artefacto de software debe estar abierto a ampliaciones pero cerrado a modificaciones.
+El principio abierto/cerrado (en inglés: ***Open/closed principle***) **o bautizado por mi como el 
+principio "aporta o aparta"** dice que un artefacto de software debe estar abierto a ampliaciones 
+pero cerrado a modificaciones.
 
 > Un artefacto de software **es cualquier elemento o componente de software que es creado durante el 
 > proceso de desarrollo de software, como por ejemplo una clase, una función, un módulo, una librería, 
@@ -97,7 +97,7 @@ que modificar dicho artefacto.**
 
 **Rompiendo el principio**
 
-Voy a tomar de ejemplo de un taller de reparación de coches que tiene diferentes tipos de tareas:
+Vamos a tomar de ejemplo de un taller de reparación de coches que tiene diferentes tipos de tareas:
 
 ```kotlin
 enum class CarRepairTasks {
@@ -122,9 +122,9 @@ class CarRepairService {
 }
 ```
 
-Imagina que **recibo un nuevo requerimiento y ahora el taller también infla ruedas**, lo que significa que
-**tengo que actualizar el enum** `CarRepairTasks` **y el** `CarRepairService` para soportar esta nueva tarea. 
-Entonces, `CarRepairTasks` y `CarRepairService` serán así
+Imagina que **recibimos un nuevo requerimiento y ahora el taller también infla ruedas**, lo que significa 
+que **hay que actualizar el enum** `CarRepairTasks` **y el** `CarRepairService` para soportar esta nueva 
+tarea. Entonces, `CarRepairTasks` y `CarRepairService` quedarían así
 
 ```kotlin
 enum class CarRepairTasks {
@@ -153,12 +153,12 @@ class CarRepairService {
 }
 ```
 
-Esto significa que **cada vez que añadas una nueva tarea al `enum` del taller, hay que actualizar el** 
+Esto significa que **cada vez que se añada una nueva tarea al `enum` del taller, hay que actualizar el** 
 `CarRepairService` **para que admita el cambio**. Con esto se está rompiendo el principio `open/closed`.
 
 **Solución**
 
-En primer lugar, **voy a crear una interfaz** llamada `CarRepairTask`.
+En primer lugar, **creamos una interfaz** llamada `CarRepairTask`.
 
 ```kotlin
 interface CarRepairTask {
@@ -166,7 +166,7 @@ interface CarRepairTask {
 }
 ```
 
-**Creo las implementaciones** de `CarRepairTask` para cada tipo: `RepairTask` y `CleanTask`.
+**Creamos las implementaciones** de `CarRepairTask` para cada tipo: `RepairTask` y `CleanTask`.
 
 ```kotlin
 class RepairTask : CarRepairTask {
@@ -186,7 +186,7 @@ class CleanTask : CarRepairTask {
 }
 ```
 
-**Creamos** `CarRepairService`.
+Por último, creamos `CarRepairService`.
 
 ```kotlin
 class CarRepairService {
@@ -197,10 +197,10 @@ class CarRepairService {
 }
 ```
 
-**Ahora**, tu `CarRepairService` **sigue el principio open/closed ya que puedes agregar o eliminar diferentes 
-tipos de tareas sin modificar** `CarRepairService`, ya que lo que recibe es una instancia de la interfaz. 
+Ahora, `CarRepairService` sigue el principio open/closed ya que podemos agregar o eliminar diferentes 
+tipos de tareas sin modificarla, ya que lo que recibe es una instancia de la interfaz. 
 
-Voy a crear otra clase llamada `InflatingWheelsTask` que implementa `CarRepairTask`.
+**Por ejemplo, vamos a crear otra clase llamada `InflatingWheelsTask` que implementa `CarRepairTask`.**
 
 ```kotlin
 class InflatingWheelsTask : CarRepairTask {
@@ -211,5 +211,5 @@ class InflatingWheelsTask : CarRepairTask {
 }
 ```
 
-Como puedes ver, aunque he agregado `InflatingWheelsTask` no he tenido que modificar `CarRepairService`, 
-siguiendo así el principio de open/closed.
+**Podemos agregar tantas clases como queramos,** que como `workingOnTheCar` de la clase `CarRepairService` 
+**recibe un CarRepairTask, no hay que modificarlo,** siguiendo así el principio open/closed.
