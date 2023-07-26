@@ -8,10 +8,10 @@ permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: Isaac
-paginate: 9
+paginate: 6
 locale: es_es
 lang: es_es
-feed_items: 10
+feed_items: 6
 feed_update_period: daily
 feed_update_frequency: 1
 
