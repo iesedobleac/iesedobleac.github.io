@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Principios SOLID para Kotlin: Primera parte"
+title: "Principios SOLID para Android con Kotlin: Primera parte"
 author: isaac
 categories: [Android, Kotlin, Solid]
 image: assets/images/post_images/solid_principles/solid_principles_first_part.webp
